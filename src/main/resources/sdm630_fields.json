@@ -1,0 +1,322 @@
+[
+  {
+    "registerType": "INPUT_REGISTER",
+    "offset": 0,
+    "registerLength": 2,
+    "propertyFieldList": [
+      {
+        "fieldName": "AC_Spannung_R",
+        "fieldType": "FLOAT_BIG_ENDIAN",
+        "expression": "value",
+        "offset": 0,
+        "length": 4
+      }
+    ],
+    "name": "AC_Spannung_R",
+    "providerPropertyType": "MODBUS"
+  },
+  {
+    "registerType": "INPUT_REGISTER",
+    "offset": 2,
+    "registerLength": 2,
+    "propertyFieldList": [
+      {
+        "fieldName": "AC_Spannung_S",
+        "fieldType": "FLOAT_BIG_ENDIAN",
+        "expression": "value",
+        "offset": 0,
+        "length": 4
+      }
+    ],
+    "name": "AC_Spannung_S",
+    "providerPropertyType": "MODBUS"
+  },
+  {
+    "registerType": "INPUT_REGISTER",
+    "offset": 4,
+    "registerLength": 2,
+    "propertyFieldList": [
+      {
+        "fieldName": "AC_Spannung_T",
+        "fieldType": "FLOAT_BIG_ENDIAN",
+        "expression": "value",
+        "offset": 0,
+        "length": 4
+      }
+    ],
+    "name": "AC_Spannung_T",
+    "providerPropertyType": "MODBUS"
+  },
+  {
+    "registerType": "INPUT_REGISTER",
+    "offset": 6,
+    "registerLength": 2,
+    "propertyFieldList": [
+      {
+        "fieldName": "AC_Strom_R",
+        "fieldType": "FLOAT_BIG_ENDIAN",
+        "expression": "value",
+        "offset": 0,
+        "length": 4
+      }
+    ],
+    "name": "AC_Strom_R",
+    "providerPropertyType": "MODBUS"
+  },
+  {
+    "registerType": "INPUT_REGISTER",
+    "offset": 8,
+    "registerLength": 2,
+    "propertyFieldList": [
+      {
+        "fieldName": "AC_Strom_S",
+        "fieldType": "FLOAT_BIG_ENDIAN",
+        "expression": "value",
+        "offset": 0,
+        "length": 4
+      }
+    ],
+    "name": "AC_Strom_S",
+    "providerPropertyType": "MODBUS"
+  },
+  {
+    "registerType": "INPUT_REGISTER",
+    "offset": 10,
+    "registerLength": 2,
+    "propertyFieldList": [
+      {
+        "fieldName": "AC_Strom_T",
+        "fieldType": "FLOAT_BIG_ENDIAN",
+        "expression": "value",
+        "offset": 0,
+        "length": 4
+      }
+    ],
+    "name": "AC_Strom_T",
+    "providerPropertyType": "MODBUS"
+  },
+  {
+    "registerType": "INPUT_REGISTER",
+    "offset": 12,
+    "registerLength": 2,
+    "propertyFieldList": [
+      {
+        "fieldName": "AC_Leistung_R",
+        "fieldType": "FLOAT_BIG_ENDIAN",
+        "expression": "value",
+        "offset": 0,
+        "length": 4
+      }
+    ],
+    "name": "AC_Leistung_R",
+    "providerPropertyType": "MODBUS"
+  },
+  {
+    "registerType": "INPUT_REGISTER",
+    "offset": 14,
+    "registerLength": 2,
+    "propertyFieldList": [
+      {
+        "fieldName": "AC_Leistung_S",
+        "fieldType": "FLOAT_BIG_ENDIAN",
+        "expression": "value",
+        "offset": 0,
+        "length": 4
+      }
+    ],
+    "name": "AC_Leistung_S",
+    "providerPropertyType": "MODBUS"
+  },
+  {
+    "registerType": "INPUT_REGISTER",
+    "offset": 16,
+    "registerLength": 2,
+    "propertyFieldList": [
+      {
+        "fieldName": "AC_Leistung_T",
+        "fieldType": "FLOAT_BIG_ENDIAN",
+        "expression": "value",
+        "offset": 0,
+        "length": 4
+      }
+    ],
+    "name": "AC_Leistung_T",
+    "providerPropertyType": "MODBUS"
+  },
+  {
+    "registerType": "INPUT_REGISTER",
+    "offset": 30,
+    "registerLength": 2,
+    "propertyFieldList": [
+      {
+        "fieldName": "PF_R",
+        "fieldType": "FLOAT_BIG_ENDIAN",
+        "expression": "value",
+        "offset": 0,
+        "length": 4
+      }
+    ],
+    "name": "PF_R",
+    "providerPropertyType": "MODBUS"
+  },
+  {
+    "registerType": "INPUT_REGISTER",
+    "offset": 32,
+    "registerLength": 2,
+    "propertyFieldList": [
+      {
+        "fieldName": "PF_S",
+        "fieldType": "FLOAT_BIG_ENDIAN",
+        "expression": "value",
+        "offset": 0,
+        "length": 4
+      }
+    ],
+    "name": "PF_S",
+    "providerPropertyType": "MODBUS"
+  },
+  {
+    "registerType": "INPUT_REGISTER",
+    "offset": 34,
+    "registerLength": 2,
+    "propertyFieldList": [
+      {
+        "fieldName": "PF_T",
+        "fieldType": "FLOAT_BIG_ENDIAN",
+        "expression": "value",
+        "offset": 0,
+        "length": 4
+      }
+    ],
+    "name": "PF_T",
+    "providerPropertyType": "MODBUS"
+  },
+  {
+    "registerType": "INPUT_REGISTER",
+    "offset": 42,
+    "registerLength": 2,
+    "propertyFieldList": [
+      {
+        "fieldName": "AC_Spannung",
+        "fieldType": "FLOAT_BIG_ENDIAN",
+        "expression": "value",
+        "offset": 0,
+        "length": 4
+      }
+    ],
+    "name": "AC_Spannung",
+    "providerPropertyType": "MODBUS"
+  },
+  {
+    "registerType": "INPUT_REGISTER",
+    "offset": 48,
+    "registerLength": 2,
+    "propertyFieldList": [
+      {
+        "fieldName": "AC_Strom",
+        "fieldType": "FLOAT_BIG_ENDIAN",
+        "expression": "value",
+        "offset": 0,
+        "length": 4
+      }
+    ],
+    "name": "AC_Strom",
+    "providerPropertyType": "MODBUS"
+  },
+  {
+    "registerType": "INPUT_REGISTER",
+    "offset": 52,
+    "registerLength": 2,
+    "propertyFieldList": [
+      {
+        "fieldName": "AC_Leistung",
+        "fieldType": "FLOAT_BIG_ENDIAN",
+        "expression": "value",
+        "offset": 0,
+        "length": 4
+      }
+    ],
+    "name": "AC_Leistung",
+    "providerPropertyType": "MODBUS"
+  },
+  {
+    "registerType": "INPUT_REGISTER",
+    "offset": 62,
+    "registerLength": 2,
+    "propertyFieldList": [
+      {
+        "fieldName": "PF_Leistung",
+        "fieldType": "FLOAT_BIG_ENDIAN",
+        "expression": "value",
+        "offset": 0,
+        "length": 4
+      }
+    ],
+    "name": "PF_Leistung",
+    "providerPropertyType": "MODBUS"
+  },
+  {
+    "registerType": "INPUT_REGISTER",
+    "offset": 70,
+    "registerLength": 2,
+    "propertyFieldList": [
+      {
+        "fieldName": "Frequenz",
+        "fieldType": "FLOAT_BIG_ENDIAN",
+        "expression": "value",
+        "offset": 0,
+        "length": 4
+      }
+    ],
+    "name": "Frequenz",
+    "providerPropertyType": "MODBUS"
+  },
+  {
+    "registerType": "INPUT_REGISTER",
+    "offset": 72,
+    "registerLength": 2,
+    "propertyFieldList": [
+      {
+        "fieldName": "Wh_Bezug",
+        "fieldType": "FLOAT_BIG_ENDIAN",
+        "expression": "value * 1000",
+        "offset": 0,
+        "length": 4
+      }
+    ],
+    "name": "Wh_Bezug",
+    "providerPropertyType": "MODBUS"
+  },
+  {
+    "registerType": "INPUT_REGISTER",
+    "offset": 74,
+    "registerLength": 2,
+    "propertyFieldList": [
+      {
+        "fieldName": "Wh_Einspeisung",
+        "fieldType": "FLOAT_BIG_ENDIAN",
+        "expression": "value * 1000",
+        "offset": 0,
+        "length": 4
+      }
+    ],
+    "name": "Wh_Einspeisung",
+    "providerPropertyType": "MODBUS"
+  },
+  {
+    "registerType": "INPUT_REGISTER",
+    "offset": 84,
+    "registerLength": 2,
+    "propertyFieldList": [
+      {
+        "fieldName": "GesamterLeistungsbedarf",
+        "fieldType": "FLOAT_BIG_ENDIAN",
+        "expression": "value",
+        "offset": 0,
+        "length": 4
+      }
+    ],
+    "name": "GesamterLeistungsbedarf",
+    "providerPropertyType": "MODBUS"
+  }
+]

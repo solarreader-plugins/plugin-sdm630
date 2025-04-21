@@ -1,0 +1,196 @@
+[
+  {
+    "columns": [
+      {
+        "columnName": "Produkt",
+        "columnType": "STRING"
+      },
+      {
+        "columnName": "Modell",
+        "columnType": "STRING"
+      },
+      {
+        "columnName": "Datum",
+        "columnType": "STRING"
+      }
+    ],
+    "rows": [
+      {
+        "cells": [
+          {
+            "expression": "\"SDM630\""
+          },
+          {
+            "expression": "\"630\""
+          },
+          {
+            "expression": "DT_DATE_FORMAT(CURRENT, \"dd.MM.yyyy\")"
+          }
+        ]
+      }
+    ],
+    "tableName": "Info"
+  },
+  {
+    "columns": [
+      {
+        "columnName": "Spannung_R",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Spannung_S",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Spannung_T",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Strom_R",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Strom_S",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Strom_T",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Leistung_R",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Leistung_S",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Leistung_T",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Leistungsfaktor_R",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Leistungsfaktor_S",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Leistungsfaktor_T",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Spannung",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Strom",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Leistung",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "PF_Leistung",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Frequenz",
+        "columnType": "NUMBER"
+      }
+    ],
+    "rows": [
+      {
+        "cells": [
+          {
+            "expression": "AC_Spannung_R"
+          },
+          {
+            "expression": "AC_Spannung_S"
+          },
+          {
+            "expression": "AC_Spannung_T"
+          },
+          {
+            "expression": "AC_Strom_R"
+          },
+          {
+            "expression": "AC_Strom_S"
+          },
+          {
+            "expression": "AC_Strom_T"
+          },
+          {
+            "expression": "AC_Leistung_R"
+          },
+          {
+            "expression": "AC_Leistung_S"
+          },
+          {
+            "expression": "AC_Leistung_T"
+          },
+          {
+            "expression": "PF_R"
+          },
+          {
+            "expression": "PF_S"
+          },
+          {
+            "expression": "PF_T"
+          },
+          {
+            "expression": "AC_Spannung"
+          },
+          {
+            "expression": "AC_Strom"
+          },
+          {
+            "expression": "AC_Leistung"
+          },
+          {
+            "expression": "PF_Leistung"
+          },
+          {
+            "expression": "Frequenz"
+          }
+        ]
+      }
+    ],
+    "tableName": "AC"
+  },
+  {
+    "columns": [
+      {
+        "columnName": "Wh_GesamtBezug",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Wh_GesamtEinspeisung",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "GesamterLeistungsbedarf",
+        "columnType": "NUMBER"
+      }
+    ],
+    "rows": [
+      {
+        "cells": [
+          {
+            "expression": "Wh_Bezug"
+          },
+          {
+            "expression": "Wh_Einspeisung"
+          },
+          {
+            "expression": "GesamterLeistungsbedarf"
+          }
+        ]
+      }
+    ],
+    "tableName": "Summen"
+  }
+]
