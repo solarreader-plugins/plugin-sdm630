@@ -78,19 +78,17 @@
                 <configuration>
                     <archive>
                         <manifestEntries>
-                            <manifestEntries>
-                                <Software-Version>${project.version}</Software-Version>
-                                <Software-Build-Date>${maven.build.timestamp}</Software-Build-Date>
-                                <Main-Class>${mainClass}</Main-Class>
-                                <Software-Name>Sdm630</Software-Name>
-                                <Software-Author>Stefan Töngi</Software-Author>
-                                <Software-Repository>https://github.com/solarreader-plugins/plugin-sdm630
-                                </Software-Repository>
-                                <Software-Icon>sdm630.svg</Software-Icon>
-                                <Software-Support-Info>SDM630</Software-Support-Info>
-                                <Software-Interfaces>NAMED_USB,LISTED_USB,HF2211</Software-Interfaces>
-                                <Software-Protocol>MODBUS</Software-Protocol>
-                            </manifestEntries>
+                            <Software-Version>${project.version}</Software-Version>
+                            <Software-Build-Date>${maven.build.timestamp}</Software-Build-Date>
+                            <Main-Class>${mainClass}</Main-Class>
+                            <Software-Name>Sdm630</Software-Name>
+                            <Software-Author>Stefan Töngi</Software-Author>
+                            <Software-Repository>https://github.com/solarreader-plugins/plugin-sdm630
+                            </Software-Repository>
+                            <Software-Icon>sdm630.svg</Software-Icon>
+                            <Software-Support-Info>SDM630</Software-Support-Info>
+                            <Software-Interfaces>NAMED_USB,LISTED_USB,HF2211</Software-Interfaces>
+                            <Software-Protocol>MODBUS</Software-Protocol>
                         </manifestEntries>
                     </archive>
                 </configuration>
