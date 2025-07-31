@@ -24,10 +24,8 @@ package de.schnippsche.solarreader.plugins.sdm630;
 import de.schnippsche.solarreader.backend.connection.general.ConnectionFactory;
 import de.schnippsche.solarreader.backend.connection.modbus.ModbusConnection;
 import de.schnippsche.solarreader.backend.connection.modbus.ModbusConnectionFactory;
-import de.schnippsche.solarreader.backend.protocol.KnownProtocol;
 import de.schnippsche.solarreader.backend.provider.AbstractModbusProvider;
 import de.schnippsche.solarreader.backend.provider.ProviderProperty;
-import de.schnippsche.solarreader.backend.provider.SupportedInterface;
 import de.schnippsche.solarreader.backend.table.Table;
 import de.schnippsche.solarreader.backend.util.ModbusConfigurationBuilder;
 import de.schnippsche.solarreader.backend.util.Setting;
@@ -37,7 +35,6 @@ import de.schnippsche.solarreader.frontend.ui.HtmlInputType;
 import de.schnippsche.solarreader.frontend.ui.HtmlWidth;
 import de.schnippsche.solarreader.frontend.ui.UIInputElementBuilder;
 import de.schnippsche.solarreader.frontend.ui.UIList;
-import de.schnippsche.solarreader.plugin.PluginMetadata;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
@@ -51,21 +48,10 @@ import org.tinylog.Logger;
  * {@link AbstractModbusProvider} and initializes the connection using a provided {@link
  * ConnectionFactory}.
  */
-@PluginMetadata(
-    name = "Sdm630",
-    version = "1.0.1",
-    author = "Stefan Töngi",
-    url = "https://github.com/solarreader-plugins/plugin-Sdm630",
-    svgImage = "sdm630.svg",
-    supportedInterfaces = {
-      SupportedInterface.NAMED_USB,
-      SupportedInterface.LISTED_USB,
-      SupportedInterface.HF2211
-    },
-    usedProtocol = KnownProtocol.MODBUS,
-    supports = "SGM630")
 public class Sdm630 extends AbstractModbusProvider {
-  /** Constructs an {@code Sdm630} instance with the default {@link ModbusConnectionFactory}. */
+  /**
+   * Constructs an {@code Sdm630} instance with the default {@link ModbusConnectionFactory}.
+   */
   public Sdm630() {
     this((new ModbusConnectionFactory()));
   }
